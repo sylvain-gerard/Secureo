@@ -1,87 +1,145 @@
+######################
+# Project Specific
+######################
+/src/main/webapp/content/css/main.css
+/target/classes/static/**
+/src/test/javascript/coverage/
 
-# Created by https://www.gitignore.io/api/eclipse
-# Edit at https://www.gitignore.io/?templates=eclipse
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+/.awcache/*
+/.cache-loader/*
 
-### Eclipse ###
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
 .metadata
-bin/
 tmp/
+tmp/**/*
 *.tmp
 *.bak
 *.swp
 *~.nib
-# propeties #
 local.properties
-.properties
-.sql
+.classpath
 .settings/
 .loadpath
-.recommenders
-
-# Compiled class file
-*.class
-
-# Logs and databases #
-######################
-*.log
-*.sql
+.factorypath
+/src/main/resources/rebel.xml
 
 # External tool builders
-.externalToolBuilders/
+.externalToolBuilders/**
 
 # Locally stored "Eclipse launch configurations"
 *.launch
 
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
-
-# CDT-specific (C/C++ Development Tooling)
+# CDT-specific
 .cproject
 
-# CDT- autotools
-.autotools
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
+# PDT-specific
 .buildpath
 
-# sbteclipse plugin
-.target
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+out/
 
-# Tern plugin
-.tern-project
+######################
+# Visual Studio Code
+######################
+.vscode/
 
-# TeXlipse plugin
-.texlipse
+######################
+# Maven
+######################
+/log/
+/target/
 
-# STS (Spring Tool Suite)
-.springBeans
+######################
+# Gradle
+######################
+.gradle/
+/build/
 
-# Code Recommenders
-.recommenders/
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
 
-# Annotation Processing
-.apt_generated/
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
 
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
+# Folder config file
+Desktop.ini
 
-### Eclipse Patch ###
-# Eclipse Core
-.project
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
 
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# Thumbnails
+._*
 
-# Annotation Processing
-.apt_generated
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-.sts4-cache/
+######################
+# Directories
+######################
+/bin/
+/deploy/
 
-# End of https://www.gitignore.io/api/eclipse
-/mvnw.cmd
-/mvnw
+######################
+# Logs
+######################
+*.log*
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
